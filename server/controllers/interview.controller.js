@@ -375,7 +375,8 @@ Questions must be based on:
       {
         role: "system",
         content: `
-You are a senior software engineering interviewer.
+You are an experienced interviewer for the ${role} position.
+Generate interview questions based on the candidate's role, experience, skills, projects, resume, and interview mode.
 
 Evaluate the candidate's answer realistically.
 
